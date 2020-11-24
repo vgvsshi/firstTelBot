@@ -1,0 +1,27 @@
+{
+	"name": "firsttelbot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./src/index.js",
+		"dev": "nodemon ./src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vgvsshi/firstTelBot.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vgvsshi/firstTelBot/issues"
+	},
+	"homepage": "https://github.com/vgvsshi/firstTelBot#readme",
+	"dependencies": {
+		"geolib": "^3.3.1",
+		"lodash": "^4.17.20",
+		"mongoose": "^5.10.15",
+		"node-telegram-bot-api": "^0.50.0",
+		"nodemon": "^2.0.6"
+	}
+}
